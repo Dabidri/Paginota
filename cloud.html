@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siglo XXI - Computación en la Nube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+           <div class="logo"><a href="index.html">SIGLO <span>XXI</span></a></div>
+           <nav class="main-nav">
+                <ul>
+                   <li><a href="index.html">Inicio</a></li>
+                   <li><a href="caracteristicas.html">Características</a></li>
+                   <li><a href="smartphones.html">Smartphones</a></li>
+                   <li><a href="cloud.html" class="active">Cloud</a></li>
+                   <li><a href="5g.html">5G</a></li>
+                   <li><a href="impresion3d.html">Impresión 3D</a></li>
+                   <li><a href="ia-etica.html">IA & Ética</a></li>
+                   <li><a href="drones.html">Drones</a></li>
+                   <li><a href="impacto.html">Impacto</a></li>
+                </ul>
+            </nav>
+       </div>
+   </header>
+
+    <main>
+        <section class="container">
+             <div class="feature-layout reverse animate-on-scroll"> <!-- Image on the right -->
+                 <div class="feature-image">
+                     <!-- Replace with image: Abstract graphic of interconnected cloud servers or data flow -->
+                     <img src="assets/placeholder_cloud.jpg" alt="Concepto de Computación en la Nube">
+                 </div>
+                 <div class="feature-text">
+                     <h2>Computación en la Nube: Datos sin Fronteras</h2>
+                     <p>La computación en la nube se refiere al acceso bajo demanda a recursos informáticos (servidores, almacenamiento, bases de datos, software) a través de internet, gestionados por un proveedor.</p>
+                     <p>En lugar de poseer y mantener infraestructura física local, las organizaciones y usuarios pueden <strong>almacenar, gestionar y procesar datos</strong> de forma remota, pagando solo por los recursos que consumen.</p>
+                 </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="animate-on-scroll">Ventajas Transformadoras</h2>
+            <div class="card-grid">
+                 <div class="card animate-on-scroll delay-1 modal-trigger" data-modal-target="#modal-cloud-flex">
+                     <h3>Flexibilidad y Escalabilidad</h3>
+                     <p>Ajusta recursos informáticos casi instantáneamente según la demanda. (Clic para más)</p>
+                 </div>
+                 <div class="card animate-on-scroll delay-2 modal-trigger" data-modal-target="#modal-cloud-cost">
+                     <h3>Reducción de Costos</h3>
+                     <p>Convierte inversión inicial en hardware en gastos operativos predecibles. (Clic para más)</p>
+                 </div>
+                 <div class="card animate-on-scroll delay-3 modal-trigger" data-modal-target="#modal-cloud-access">
+                     <h3>Accesibilidad Global</h3>
+                     <p>Datos y aplicaciones disponibles desde cualquier lugar con internet. (Clic para más)</p>
+                 </div>
+                  <div class="card animate-on-scroll delay-4 modal-trigger" data-modal-target="#modal-cloud-security">
+                      <h3>Seguridad y Respaldo</h3>
+                      <p>Benefíciate de inversiones masivas en seguridad de los proveedores. (Clic para más)</p>
+                  </div>
+                   <div class="card animate-on-scroll delay-1 modal-trigger" data-modal-target="#modal-cloud-innovation"> <!-- Reuse delays -->
+                      <h3>Innovación Acelerada</h3>
+                      <p>Accede a tecnologías avanzadas como IA/ML sin infraestructura propia. (Clic para más)</p>
+                  </div>
+                   <div class="card animate-on-scroll delay-2 modal-trigger" data-modal-target="#modal-cloud-education"> <!-- Reuse delays -->
+                      <h3>Impacto Educativo</h3>
+                      <p>Democratiza el acceso a software potente y recursos de aprendizaje. (Clic para más)</p>
+                  </div>
+             </div>
+        </section>
+         <!-- Space for hidden Modals defined below -->
+    </main>
+
+     <footer class="main-footer">
+        <div class="container">
+            <p>© 2024 Presentación Siglo XXI - J. Tombe & N. Covaleda.</p>
+        </div>
+    </footer>
+
+     <!-- Modal Overlay -->
+    <div class="modal-overlay">
+        <!-- Hidden Modal Structures -->
+        <div class="modal" id="modal-cloud-flex">
+            <button class="modal-close" aria-label="Cerrar modal">×</button>
+            <div class="modal-header"><h3>Flexibilidad y Escalabilidad</h3></div>
+            <div class="modal-body">
+                <p>La nube permite escalar verticalmente (más potencia a una instancia) u horizontalmente (más instancias) en minutos. Esto es ideal para cargas de trabajo variables, picos de tráfico estacionales o crecimiento rápido, evitando el sobreaprovisionamiento o la falta de capacidad de la infraestructura tradicional.</p>
+            </div>
+        </div>
+        <div class="modal" id="modal-cloud-cost">
+            <button class="modal-close" aria-label="Cerrar modal">×</button>
+            <div class="modal-header"><h3>Reducción de Costos (OpEx vs CapEx)</h3></div>
+            <div class="modal-body">
+                <p>Elimina la necesidad de comprar servidores caros, espacio físico, aire acondicionado y personal dedicado al mantenimiento (Capital Expenditure - CapEx). En su lugar, pagas una suscripción o por el uso real (Operational Expenditure - OpEx), lo que mejora el flujo de caja y la previsibilidad de gastos.</p>
+            </div>
+        </div>
+        <div class="modal" id="modal-cloud-access">
+             <button class="modal-close" aria-label="Cerrar modal">×</button>
+             <div class="modal-header"><h3>Accesibilidad Global y Colaboración</h3></div>
+             <div class="modal-body">
+                <p>Los equipos pueden acceder a la misma información y herramientas desde diferentes ubicaciones geográficas, facilitando el trabajo remoto, la colaboración en proyectos distribuidos y la expansión a nuevos mercados sin necesidad de desplegar infraestructura local en cada sitio.</p>
+            </div>
+         </div>
+         <div class="modal" id="modal-cloud-security">
+            <button class="modal-close" aria-label="Cerrar modal">×</button>
+             <div class="modal-header"><h3>Seguridad y Respaldo Avanzados</h3></div>
+            <div class="modal-body">
+                 <p>Proveedores como AWS, Azure o GCP invierten miles de millones en seguridad física de data centers, seguridad de red, cifrado de datos, cumplimiento normativo (GDPR, HIPAA) y herramientas de monitoreo. Ofrecen opciones robustas de backup y recuperación ante desastres, a menudo superando lo que una empresa individual podría implementar.</p>
+            </div>
+         </div>
+        <div class="modal" id="modal-cloud-innovation">
+            <button class="modal-close" aria-label="Cerrar modal">×</button>
+            <div class="modal-header"><h3>Innovación Acelerada</h3></div>
+            <div class="modal-body">
+                <p>La nube ofrece acceso inmediato a servicios avanzados como bases de datos gestionadas, herramientas de Big Data, plataformas de Machine Learning e Inteligencia Artificial. Las empresas pueden experimentar, desarrollar y desplegar nuevas aplicaciones y servicios mucho más rápido, sin la barrera de construir y configurar la infraestructura subyacente.</p>
+            </div>
+        </div>
+         <div class="modal" id="modal-cloud-education">
+             <button class="modal-close" aria-label="Cerrar modal">×</button>
+            <div class="modal-header"><h3>Impacto Educativo</h3></div>
+            <div class="modal-body">
+                 <p>Estudiantes e instituciones pueden utilizar software especializado y potente (ej. diseño CAD, simulación científica, análisis de datos) a través de un navegador web, sin necesidad de costosas licencias o hardware potente. Facilita el almacenamiento compartido, las plataformas de e-learning y el acceso equitativo a recursos educativos.</p>
+             </div>
+         </div>
+        <!-- End Hidden Modals -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
